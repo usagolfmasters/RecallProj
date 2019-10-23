@@ -39,7 +39,7 @@
   margin: 5em auto 0;
   border: solid 5px tomato;
 
-button { 
+.button { 
   background-color: #4CAF50; /* Green background */
   color: white; /* White text */
   padding: 10px 24px; /* Some padding */
@@ -48,11 +48,11 @@ button {
   border-radius: 50%;
     }
 
-button:not(:last-child) {
+.button:not(:last-child) {
    border-bottom: none; /* Prevent double borders */
    }
 
-button:hover {
+.button:hover {
   background-color: #3e8e41;
 }
 }
