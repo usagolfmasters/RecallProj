@@ -8972,6 +8972,8 @@ a.text-dark:hover, a.text-dark:focus {
     border: 1px solid #ddd !important;
   }
 }
+
+/* This holds the circle information */
     .circle-container {
     	position: relative;
     	width: 48em;
@@ -8989,6 +8991,7 @@ a.text-dark:hover, a.text-dark:focus {
     	width: 8em; height: 8em;
     	margin: -3em;
     }
+/* This positions the circles */
     .circle-container img { display: block; width: 100%; }
     .deg0 { transform: translate(24em); } /* 12em = half the width of the wrapper */
     .deg36 { transform: rotate(36deg) translate(24em) rotate(-36deg); }
@@ -9001,5 +9004,88 @@ a.text-dark:hover, a.text-dark:focus {
 	.deg288 { transform: rotate(288deg) translate(24em) rotate(-288deg); }
     .deg324 { transform: rotate(324deg) translate(24em) rotate(-324deg); }
     .deg360 { transform: rotate(360deg) translate(24em) rotate(-360deg); }
+
+	/* This is where the modal information is kept */
+
+	/* Style the Image Used to Trigger the Modal */
+	#dist {
+	  border-radius: 5px;
+	  cursor: pointer;
+	  transition: 0.3s;
+	}
+
+	#dist:hover {opacity: 0.7;}
+
+	/* The Modal (background) */
+	.modal {
+	  display: none; /* Hidden by default */
+	  position: fixed; /* Stay in place */
+	  z-index: 1; /* Sit on top */
+	  padding-top: 100px; /* Location of the box */
+	  left: 0;
+	  top: 0;
+	  width: 100%; /* Full width */
+	  height: 100%; /* Full height */
+	  overflow: auto; /* Enable scroll if needed */
+	  background-color: rgb(0,0,0); /* Fallback color */
+	  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+	}
+
+	/* Modal Content (Image) */
+	.modal-content {
+	  margin: auto;
+	  display: block;
+	  width: 80%;
+	  max-width: 700px;
+	}
+
+	/* Caption of Modal Image (Image Text) - Same Width as the Image */
+	#caption {
+	  margin: auto;
+	  display: block;
+	  width: 80%;
+	  max-width: 700px;
+	  text-align: center;
+	  color: #ccc;
+	  padding: 10px 0;
+	  height: 150px;
+	}
+
+	/* Add Animation - Zoom in the Modal */
+	.modal-content, #caption {
+	  animation-name: zoom;
+	  animation-duration: 0.6s;
+	}
+
+	@keyframes zoom {
+	  from {transform:scale(0)}
+	  to {transform:scale(1)}
+	}
+
+	/* The Close Button */
+	.close {
+	  position: absolute;
+	  top: 15px;
+	  right: 35px;
+	  color: #f1f1f1;
+	  font-size: 40px;
+	  font-weight: bold;
+	  transition: 0.3s;
+	}
+
+	.close:hover,
+	.close:focus {
+	  color: #bbb;
+	  text-decoration: none;
+	  cursor: pointer;
+	}
+
+	/* 100% Image Width on Smaller Screens */
+	@media only screen and (max-width: 700px){
+	  .modal-content {
+		width: 100%;
+	  }
+	}
+		
 
 /*# sourceMappingURL=bootstrap.css.map */
