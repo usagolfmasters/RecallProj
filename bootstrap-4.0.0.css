@@ -8979,11 +8979,12 @@ a.text-dark:hover, a.text-dark:focus {
     	width: 48em;
     	height: 48em;
     	padding: 2.8em;
-        /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
-    	border: dashed 1px;
+      /*2.8em=2em*1.4(2em=halfthewidthofalinkwithimg,1.4=sqrt(2))*/
+      border: dashed 1px;
     	border-radius: 50%;
     	margin: 1.75em auto 0;
-    }
+
+}
     .circle-container a {
     	display: block;
     	position: absolute;
@@ -8992,18 +8993,19 @@ a.text-dark:hover, a.text-dark:focus {
     	margin: -3em;
     }
 /* This positions the circles */
-    .circle-container img { display: block; width: 100%; }
-    .deg0 { transform: translate(24em); } /* 12em = half the width of the wrapper */
-    .deg36 { transform: rotate(36deg) translate(24em) rotate(-36deg); }
-    .deg72 { transform: rotate(72deg) translate(24em) rotate(-72deg); }
-	.deg108 { transform: rotate(108deg) translate(24em) rotate(-108deg); }
-	.deg144 { transform: rotate(144deg) translate(24em) rotate(-144deg); }
+    .circle-container img { display: block; width: 100%; } 
+    .center {width: 64em; height: 64em}
+    .deg0 { transform: translate(24em); -webkit-transform: translate(24em); -moz-transform: translate(24em); -ms-transform: translate(24em); -o-transform: translate(24em); } /* 12em = half the width of the wrapper */
+    .deg36 { transform: rotate(36deg) translate(24em) rotate(-36deg); -webkit-transform: rotate(36deg) translate(24em) rotate(-36deg); -moz-transform: rotate(36deg) translate(24em) rotate(-36deg); -ms-transform: rotate(36deg) translate(24em) rotate(-36deg); -o-transform: rotate(36deg) translate(24em) rotate(-36deg); }
+    .deg72 { transform: rotate(72deg) translate(24em) rotate(-72deg); -webkit-transform: rotate(72deg) translate(24em) rotate(-72deg); -moz-transform: rotate(72deg) translate(24em) rotate(-72deg); -ms-transform: rotate(72deg) translate(24em) rotate(-72deg); -o-transform: rotate(72deg) translate(24em) rotate(-72deg); }
+	  .deg108 { transform: rotate(108deg) translate(24em) rotate(-108deg); -webkit-transform: rotate(108deg) translate(24em) rotate(-108deg); -moz-transform: rotate(108deg) translate(24em) rotate(-108deg); -ms-transform: rotate(108deg) translate(24em) rotate(-108deg); -o-transform: rotate(108deg) translate(24em) rotate(-108deg); }
+	  .deg144 { transform: rotate(144deg) translate(24em) rotate(-144deg); -webkit-transform: rotate(144deg) translate(24em) rotate(-144deg); -moz-transform: rotate(144deg) translate(24em) rotate(-144deg); -ms-transform: rotate(144deg) translate(24em) rotate(-144deg); -o-transform: rotate(144deg) translate(24em) rotate(-144deg); }
     .deg180 { transform: translate(-24em); }
-    .deg216 { transform: rotate(216deg) translate(24em) rotate(-216deg); }
-    .deg252 { transform: rotate(252deg) translate(24em) rotate(-252deg); }
-	.deg288 { transform: rotate(288deg) translate(24em) rotate(-288deg); }
-    .deg324 { transform: rotate(324deg) translate(24em) rotate(-324deg); }
-    .deg360 { transform: rotate(360deg) translate(24em) rotate(-360deg); }
+    .deg216 { transform: rotate(216deg) translate(24em) rotate(-216deg); -webkit-transform: rotate(216deg) translate(24em) rotate(-216deg); -moz-transform: rotate(216deg) translate(24em) rotate(-216deg); -ms-transform: rotate(216deg) translate(24em) rotate(-216deg); -o-transform: rotate(216deg) translate(24em) rotate(-216deg); }
+    .deg252 { transform: rotate(252deg) translate(24em) rotate(-252deg); -webkit-transform: rotate(252deg) translate(24em) rotate(-252deg); -moz-transform: rotate(252deg) translate(24em) rotate(-252deg); -ms-transform: rotate(252deg) translate(24em) rotate(-252deg); -o-transform: rotate(252deg) translate(24em) rotate(-252deg); }
+	  .deg288 { transform: rotate(288deg) translate(24em) rotate(-288deg); -webkit-transform: rotate(288deg) translate(24em) rotate(-288deg); -moz-transform: rotate(288deg) translate(24em) rotate(-288deg); -ms-transform: rotate(288deg) translate(24em) rotate(-288deg); -o-transform: rotate(288deg) translate(24em) rotate(-288deg); }
+    .deg324 { transform: rotate(324deg) translate(24em) rotate(-324deg); -webkit-transform: rotate(324deg) translate(24em) rotate(-324deg); -moz-transform: rotate(324deg) translate(24em) rotate(-324deg); -ms-transform: rotate(324deg) translate(24em) rotate(-324deg); -o-transform: rotate(324deg) translate(24em) rotate(-324deg); }
+    .deg360 { transform: rotate(360deg) translate(24em) rotate(-360deg); -webkit-transform: rotate(360deg) translate(24em) rotate(-360deg); -moz-transform: rotate(360deg) translate(24em) rotate(-360deg); -ms-transform: rotate(360deg) translate(24em) rotate(-360deg); -o-transform: rotate(360deg) translate(24em) rotate(-360deg); }
 
 	/* This is where the modal information is kept */
 
