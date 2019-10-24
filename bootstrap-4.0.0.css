@@ -8986,8 +8986,8 @@ a.text-dark:hover, a.text-dark:focus {
     	display: block;
     	position: absolute;
     	top: 50%; left: 50%;
-    	width: 4em; height: 4em;
-    	margin: -2em;
+    	width: 8em; height: 8em;
+    	margin: -3em;
     }
     .circle-container img { display: block; width: 100%; }
     .deg0 { transform: translate(24em); } /* 12em = half the width of the wrapper */
@@ -9001,4 +9001,5 @@ a.text-dark:hover, a.text-dark:focus {
 	.deg288 { transform: rotate(288deg) translate(24em) rotate(-288deg); }
     .deg324 { transform: rotate(324deg) translate(24em) rotate(-324deg); }
     .deg360 { transform: rotate(360deg) translate(24em) rotate(-360deg); }
+
 /*# sourceMappingURL=bootstrap.css.map */
