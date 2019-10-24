@@ -9021,7 +9021,7 @@ a.text-dark:hover, a.text-dark:focus {
 	  display: none; /* Hidden by default */
 	  position: fixed; /* Stay in place */
 	  z-index: 1; /* Sit on top */
-	  padding-top: 100px; /* Location of the box */
+	  padding-top: 10px; /* Location of the box */
 	  left: 0;
 	  top: 0;
 	  width: 100%; /* Full width */
@@ -9047,7 +9047,7 @@ a.text-dark:hover, a.text-dark:focus {
 	  max-width: 700px;
 	  text-align: center;
 	  color: #ccc;
-	  padding: 10px 0;
+	  padding: 100px 0;
 	  height: 150px;
 	}
 
@@ -9065,7 +9065,7 @@ a.text-dark:hover, a.text-dark:focus {
 	/* The Close Button */
 	.close {
 	  position: absolute;
-	  top: 15px;
+	  top: 120px;
 	  right: 35px;
 	  color: #f1f1f1;
 	  font-size: 40px;
