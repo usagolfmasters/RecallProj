@@ -9009,7 +9009,13 @@ a.text-dark:hover, a.text-dark:focus {
 
 	/* This is where the modal information is kept */
 
-	/* Style the Image Used to Trigger the Modal */
+  /* Style the Image Used to Trigger the Modal */
+  
+  /****************************
+  *
+  *This is for center modal
+  *
+  ****************************/
 	#dist {
 	  border-radius: 5px;
 	  cursor: pointer;
@@ -9018,7 +9024,137 @@ a.text-dark:hover, a.text-dark:focus {
 
 	#dist:hover {opacity: 0.7;}
 
-	/* The Modal (background) */
+  /****************************
+  *
+  *This is for hub1 modal
+  *
+  ****************************/
+	#hub1 {
+	  border-radius: 5px;
+	  cursor: pointer;
+	  transition: 0.3s;
+	}
+
+	#hub1:hover {opacity: 0.7;}
+
+  /****************************
+  *
+  *This is for hub2 modal
+  *
+  ****************************/
+	#hub2 {
+	  border-radius: 5px;
+	  cursor: pointer;
+	  transition: 0.3s;
+	}
+
+  #hub2:hover {opacity: 0.7;}
+
+  /****************************
+  *
+  *This is for hub3 modal
+  *
+  ****************************/
+	#hub3 {
+	  border-radius: 5px;
+	  cursor: pointer;
+	  transition: 0.3s;
+	}
+
+  #hub3:hover {opacity: 0.7;}
+  
+  /****************************
+  *
+  *This is for hub4 modal
+  *
+  ****************************/
+	#hub4 {
+	  border-radius: 5px;
+	  cursor: pointer;
+	  transition: 0.3s;
+	}
+
+	#hub4:hover {opacity: 0.7;}
+
+  /****************************
+  *
+  *This is for hub5 modal
+  *
+  ****************************/
+	#hub5 {
+	  border-radius: 5px;
+	  cursor: pointer;
+	  transition: 0.3s;
+	}
+
+	#hub5:hover {opacity: 0.7;}
+  
+  /****************************
+  *
+  *This is for hub6 modal
+  *
+  ****************************/
+	#hub6 {
+	  border-radius: 5px;
+	  cursor: pointer;
+	  transition: 0.3s;
+	}
+
+	#hub6:hover {opacity: 0.7;}
+  
+  /****************************
+  *
+  *This is for hub7 modal
+  *
+  ****************************/
+	#hub7 {
+	  border-radius: 5px;
+	  cursor: pointer;
+	  transition: 0.3s;
+	}
+
+	#hub7:hover {opacity: 0.7;}
+  
+  /****************************
+  *
+  *This is for hub8 modal
+  *
+  ****************************/
+	#hub8 {
+	  border-radius: 5px;
+	  cursor: pointer;
+	  transition: 0.3s;
+	}
+
+	#hub8:hover {opacity: 0.7;}
+
+  /****************************
+  *
+  *This is for hub9 modal
+  *
+  ****************************/
+	#hub9 {
+	  border-radius: 5px;
+	  cursor: pointer;
+	  transition: 0.3s;
+	}
+
+	#hub9:hover {opacity: 0.7;}
+  
+  /****************************
+  *
+  *This is for hub10 modal
+  *
+  ****************************/
+	#hub10 {
+	  border-radius: 5px;
+	  cursor: pointer;
+	  transition: 0.3s;
+	}
+
+	#hub10:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
 	.modal {
 	  display: none; /* Hidden by default */
 	  position: fixed; /* Stay in place */
