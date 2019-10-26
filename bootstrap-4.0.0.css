@@ -9010,12 +9010,30 @@ a.text-dark:hover, a.text-dark:focus {
 /* This is where the modal information is kept */
 
 /* Style the Image Used to Trigger the Modal */
+/********************
+*
+*For Central Modal
+*
+*********************/
 #dist {
 border-radius: 5px;
 cursor: pointer;
 transition: 0.3s;
 }
 
+#dist:hover {opacity: 0.7;}
+
+/********************
+*
+*For Hub1 Modal
+*
+*********************/
+#dist {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  }
+  
 #dist:hover {opacity: 0.7;}
 
 /* The Modal (background) */
